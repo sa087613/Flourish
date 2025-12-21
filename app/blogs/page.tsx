@@ -156,7 +156,7 @@ const BlogListingPage = () => {
             <ArrowRight className="w-5 h-5 rotate-180" />
             <span className="font-medium">Home</span>
         </Link>
-          <h1 className="text-4xl font-bold text-stone-900 mb-2" style={{ fontFamily: "'Sentient', serif" }}>Blogs</h1>
+          <h1 className="text-4xl font-bold text-stone-900 mb-2" style={{ fontFamily: "'Homemade Apple', serif" }}>Blogs</h1>
           <p className="text-[#d4a574] text-lg">College tips, real student insights, and step-by-step admission advice</p>
         </div>
       </header>
@@ -219,7 +219,7 @@ const BlogListingPage = () => {
               </div>
               {/* Content */}
               <div className="p-6">
-                <h2 className="text-xl font-bold text-stone-900 mb-3 group-hover:text-stone-600 transition-colors line-clamp-2" style={{ fontFamily: "'Sentient', serif" }}>
+                <h2 className="text-xl font-bold text-stone-900 mb-3 group-hover:text-stone-600 transition-colors line-clamp-2" style={{ fontFamily: "'Homemade Apple', serif" }}>
                   {post.title}
                 </h2>
                 <p className="text-[#d4a574] mb-4 line-clamp-3">{post.excerpt}</p>
@@ -290,7 +290,7 @@ const BlogListingPage = () => {
               className="h-8"
               alt="Flourish Logo"
             />
-            <span className="self-center text-2xl font-extrabold whitespace-nowrap text-stone-900" style={{ fontFamily: "'Sentient', serif" }}>
+            <span className="self-center text-2xl font-extrabold whitespace-nowrap text-stone-900" style={{ fontFamily: "'Homemade Apple', serif" }}>
               Flourish
             </span>
           </a>

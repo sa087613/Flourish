@@ -306,7 +306,7 @@ const toggleIndex = (index: number) => {
                 Your Success Is Our Mission
               </h2>
               <p className="text-lg text-stone-700 mb-6 leading-relaxed">
-                At Flourish, we understand that the college admission process can be overwhelming. That's why we've created a comprehensive platform that combines expert guidance with peer support.
+                At Flourish, we understand that the college admission process can be overwhelming. That&apos;s why we&apos;ve created a comprehensive platform that combines expert guidance with peer support.
               </p>
               <p className="text-lg text-stone-700 mb-8 leading-relaxed">
                 Our team of experienced counselors has helped thousands of students gain admission to their dream schools. We provide personalized strategies, insider insights, and the tools you need to stand out.

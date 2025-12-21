@@ -148,13 +148,13 @@ const BlogListingPage = () => {
       {/* Header */}
       <header className="bg-white border-b border-stone-200">
         <div className="max-w-7xl mx-auto px-6 py-8">
-        <a 
+        <Link 
             href="/" 
             className="inline-flex items-center gap-2 text-stone-600 hover:text-stone-800 transition-colors no-underline mb-4"
           >
             <ArrowRight className="w-5 h-5 rotate-180" />
             <span className="font-medium">Home</span>
-        </a>
+        </Link>
           <h1 className="text-4xl font-bold text-stone-900 mb-2" style={{ fontFamily: "'Sentient', serif" }}>Blogs</h1>
           <p className="text-[#d4a574] text-lg">College tips, real student insights, and step-by-step admission advice</p>
         </div>

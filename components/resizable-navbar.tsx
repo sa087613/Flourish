@@ -232,7 +232,7 @@ export const MobileNavToggle = ({
 
 export const NavbarLogo = () => {
   return (
-    <a
+    <Link
       href="/"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
@@ -243,7 +243,7 @@ export const NavbarLogo = () => {
         height={35}
       />
       <span className="text-stone-600 text-xl font-extrabold" style={{ fontFamily: "'Sentient', serif" }}>Flourish</span>
-    </a>
+    </Link>
   );
 };
 

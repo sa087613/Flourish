@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Search, Calendar, Clock, ArrowRight, Tag } from 'lucide-react';
 
 interface BlogPost {

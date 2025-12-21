@@ -91,7 +91,9 @@ const toggleIndex = (index: number) => {
   return (
     <div className="scroll-smooth relative w-full min-h-screen pt-8 overflow-x-hidden bg-gradient-to-br from-stone-50 to-stone-100">
     <span>
-      <link href="https://api.fontshare.com/v2/css?f[]=sentient@401&display=swap" rel="stylesheet"></link>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
     </span>
     {/*Navbar*/}
     <div>
@@ -159,7 +161,7 @@ const toggleIndex = (index: number) => {
             <div className="inline-block bg-stone-100 text-stone-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
               Your College Journey Starts Here
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-stone-900 mb-6 leading-tight" style={{ fontFamily: "'Sentient', serif" }}>
+            <h1 className="text-5xl md:text-6xl font-bold text-stone-900 mb-6 leading-tight" style={{ fontFamily: "'Homemade Apple', serif" }}>
               Navigate College Admissions with Confidence
             </h1>
             <p className="text-xl text-[#d4a574] mb-8 leading-relaxed">
@@ -192,7 +194,7 @@ const toggleIndex = (index: number) => {
           <CardBody className="bg-gray-50 relative group/card shadow-2xl w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
           <CardItem
           translateZ="50"
-          className="text-xl font-bold text-stone-900" style={{ fontFamily: "'Sentient', serif" }}
+          className="text-xl font-bold text-stone-900" style={{ fontFamily: "'Homemade Apple', serif" }}
           >
           Harvard University
           </CardItem>
@@ -232,7 +234,7 @@ const toggleIndex = (index: number) => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <p className="text-4xl md:text-5xl font-bold text-stone-600 mb-2" style={{ fontFamily: "'Sentient', serif" }}>
+                <p className="text-4xl md:text-5xl font-bold text-stone-600 mb-2" style={{ fontFamily: "'Homemade Apple', serif" }}>
                   {stat.number}
                 </p>
                 <p className="text-stone-600 font-medium">{stat.label}</p>
@@ -244,7 +246,7 @@ const toggleIndex = (index: number) => {
     {/* Features Section */}
     <section id="features" className="max-w-7xl mx-auto px-6 py-20 md:py-32">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-stone-900 mb-4" style={{ fontFamily: "'Sentient', serif" }}>
+          <h2 className="text-4xl md:text-5xl font-bold text-stone-900 mb-4" style={{ fontFamily: "'Homemade Apple', serif" }}>
             Why Choose Flourish?
           </h2>
           <p className="text-xl text-[#d4a574] max-w-2xl mx-auto">
@@ -261,7 +263,7 @@ const toggleIndex = (index: number) => {
               <div className="w-16 h-16 bg-stone-100 rounded-xl flex items-center justify-center text-stone-600 mb-6 group-hover:bg-stone-600 group-hover:text-white transition-all">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-bold text-stone-900 mb-3" style={{ fontFamily: "'Sentient', serif" }}>
+              <h3 className="text-xl font-bold text-stone-900 mb-3" style={{ fontFamily: "'Homemade Apple', serif" }}>
                 {feature.title}
               </h3>
               <p className="text-stone-600 leading-relaxed">
@@ -302,7 +304,7 @@ const toggleIndex = (index: number) => {
               <AnimatedLogo />
             </div>
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-stone-900 mb-6" style={{ fontFamily: "'Sentient', serif" }}>
+              <h2 className="text-4xl md:text-5xl font-bold text-stone-900 mb-6" style={{ fontFamily: "'Homemade Apple', serif" }}>
                 Your Success Is Our Mission
               </h2>
               <p className="text-lg text-stone-700 mb-6 leading-relaxed">
@@ -327,7 +329,7 @@ const toggleIndex = (index: number) => {
       <div className="grid md:grid-cols-5 gap-10">
         <div className="md:col-span-2">
           <div className="max-w-xs">
-            <h2 className="text-2xl font-extrabold md:text-4xl md:leading-tight text-stone-700" style={{ fontFamily: "'Sentient', serif" }}>
+            <h2 className="text-2xl font-extrabold md:text-4xl md:leading-tight text-stone-700" style={{ fontFamily: "'Homemade Apple', serif" }}>
               Frequently
               <br />
               asked questions
@@ -409,7 +411,7 @@ const toggleIndex = (index: number) => {
             <div className="absolute bottom-10 right-10 w-40 h-40 bg-white rounded-full blur-3xl"></div>
           </div>
           <div className="relative z-10">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ fontFamily: "'Sentient', serif" }}>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ fontFamily: "'Homemade Apple', serif" }}>
               Ready to Start Your Journey?
             </h2>
             <p className="text-xl text-stone-100 mb-8 max-w-2xl mx-auto">
@@ -437,7 +439,7 @@ const toggleIndex = (index: number) => {
               className="h-8"
               alt="Flourish Logo"
             />
-            <span className="self-center text-2xl font-extrabold whitespace-nowrap text-stone-900" style={{ fontFamily: "'Sentient', serif" }}>
+            <span className="self-center text-2xl font-extrabold whitespace-nowrap text-stone-900" style={{ fontFamily: "'Homemade Apple', serif" }}>
               Flourish
             </span>
           </a>

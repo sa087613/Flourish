@@ -1,0 +1,135 @@
+<svg
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient id="altSlate" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#64748b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#334155;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="altBrown" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8956a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer ring - represents growth journey -->
+  <circle
+    cx="32"
+    cy="32"
+    r="27"
+    stroke="url(#altSlate)"
+    stroke-width="2.5"
+    fill="none"
+    opacity="0.3"
+  />
+  
+  <!-- Partial arc - progress/journey -->
+  <path
+    d="M 32 5 A 27 27 0 0 1 59 32"
+    stroke="url(#altBrown)"
+    stroke-width="3"
+    fill="none"
+    stroke-linecap="round"
+  />
+  
+  <!-- Inner abstract leaf/growth shapes -->
+  <g transform="translate(32, 32)">
+    <!-- Center stem -->
+    <line
+      x1="0"
+      y1="9"
+      x2="0"
+      y2="-14"
+      stroke="url(#altSlate)"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+    
+    <!-- Left leaf - bottom -->
+    <path
+      d="M 0 2 Q -7 0 -9 -5"
+      stroke="url(#altSlate)"
+      stroke-width="2"
+      fill="none"
+      stroke-linecap="round"
+    />
+    <ellipse
+      cx="-7"
+      cy="-2"
+      rx="3.5"
+      ry="4.5"
+      fill="url(#altBrown)"
+      opacity="0.6"
+      transform="rotate(-30 -7 -2)"
+    />
+    
+    <!-- Right leaf - bottom -->
+    <path
+      d="M 0 2 Q 7 0 9 -5"
+      stroke="url(#altSlate)"
+      stroke-width="2"
+      fill="none"
+      stroke-linecap="round"
+    />
+    <ellipse
+      cx="7"
+      cy="-2"
+      rx="3.5"
+      ry="4.5"
+      fill="url(#altBrown)"
+      opacity="0.6"
+      transform="rotate(30 7 -2)"
+    />
+    
+    <!-- Left leaf - top -->
+    <path
+      d="M 0 -5 Q -6 -7 -7 -11"
+      stroke="url(#altSlate)"
+      stroke-width="2"
+      fill="none"
+      stroke-linecap="round"
+    />
+    <ellipse
+      cx="-5"
+      cy="-9"
+      rx="3"
+      ry="4"
+      fill="url(#altBrown)"
+      opacity="0.8"
+      transform="rotate(-25 -5 -9)"
+    />
+    
+    <!-- Right leaf - top -->
+    <path
+      d="M 0 -5 Q 6 -7 7 -11"
+      stroke="url(#altSlate)"
+      stroke-width="2"
+      fill="none"
+      stroke-linecap="round"
+    />
+    <ellipse
+      cx="5"
+      cy="-9"
+      rx="3"
+      ry="4"
+      fill="url(#altBrown)"
+      opacity="0.8"
+      transform="rotate(25 5 -9)"
+    />
+    
+    <!-- Top bloom -->
+    <circle
+      cx="0"
+      cy="-14"
+      r="2.5"
+      fill="url(#altBrown)"
+    />
+  </g>
+  
+  <!-- Accent dots - showing progress -->
+  <circle cx="59" cy="32" r="3" fill="url(#altBrown)" />
+</svg>

@@ -40,7 +40,7 @@ export default function MeetTheTeam() {
             <ArrowRight className="w-5 h-5 rotate-180" />
             <span className="font-medium">Home</span>
         </Link>
-          <h1 className="text-3xl font-bold text-stone-900" style={{ fontFamily: "'Sentient', serif" }}>Our Team</h1>
+          <h1 className="text-3xl font-bold text-stone-900" style={{ fontFamily: "'Homemade Apple', serif" }}>Our Team</h1>
           <p className="mt-2 text-[#d4a574]">Meet the people behind our success</p>
         </div>
       </div>
@@ -65,7 +65,7 @@ export default function MeetTheTeam() {
         
         {/* Team Members Grid */}
         <div>
-          <h2 className="text-2xl font-bold text-stone-900 mb-8" style={{ fontFamily: "'Sentient', serif" }}>Team Members</h2>
+          <h2 className="text-2xl font-bold text-stone-900 mb-8" style={{ fontFamily: "'Homemade Apple', serif" }}>Team Members</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
               <div

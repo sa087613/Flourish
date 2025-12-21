@@ -156,7 +156,7 @@ const toggleIndex = (index: number) => {
             <div className="inline-block bg-stone-100 text-stone-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
               Your College Journey Starts Here
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-stone-900 mb-6 leading-tight" style={{ fontFamily: "'Homemade Apple', serif" }}>
+            <h1 className="text-5xl md:text-6xl font-bold text-stone-900 mb-6 leading-tight" style={{ fontFamily: "'Gamja Flower', serif" }}>
               Navigate College Admissions with Confidence
             </h1>
             <p className="text-xl text-[#d4a574] mb-8 leading-relaxed">

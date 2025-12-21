@@ -77,13 +77,13 @@ export default function ContactPage() {
       {/* Header */}
       <div className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <a 
+        <Link 
             href="/" 
             className="inline-flex items-center gap-2 text-stone-600 hover:text-stone-800 transition-colors no-underline mb-4"
           >
             <ArrowRight className="w-5 h-5 rotate-180" />
             <span className="font-medium">Home</span>
-        </a>
+        </Link>
           <h1 className="text-3xl font-bold text-stone-900" style={{ fontFamily: "'Sentient', serif" }}>Contact Our Team</h1>
           <p className="mt-2 text-[#d4a574]">If you’re a college or an individual interested in contributing to Flourish, please reach out to Sophia Abanador. We’d love to hear from you!</p>
         </div>
@@ -169,7 +169,7 @@ export default function ContactPage() {
                 {submitted && (
                   <div className="mb-6 bg-green-50 border border-green-200 rounded-lg p-4">
                     <p className="text-green-800 font-medium">
-                      Your message has been sent to {selectedMember.name}. They'll get back to you soon!
+                      Your message has been sent to {selectedMember.name}. They&apos;ll get back to you soon!
                     </p>
                   </div>
                 )}

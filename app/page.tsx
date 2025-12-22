@@ -189,7 +189,7 @@ const toggleIndex = (index: number) => {
           <CardBody className="bg-gray-50 relative group/card shadow-2xl w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
           <CardItem
           translateZ="50"
-          className="text-xl font-bold text-stone-900" style={{ fontFamily: "'Homemade Apple', serif" }}
+          className="text-xl font-bold text-stone-900" style={{ fontFamily: "'Gamja Flower', serif" }}
           >
           Harvard University
           </CardItem>

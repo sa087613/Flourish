@@ -91,7 +91,7 @@ const BlogArticlePage = () => {
         {/* Title */}
         <h1 
           className="text-5xl font-bold text-stone-900 mb-6 leading-tight" 
-          style={{ fontFamily: "'Sentient', serif" }}
+          style={{ fontFamily: "'Story Script', serif" }}
         >
           {article.title}
         </h1>
@@ -172,7 +172,7 @@ const BlogArticlePage = () => {
             
             if (isSubtitle) {
               return (
-                <h2 key={index} className="text-2xl font-bold text-stone-900 mt-10 mb-4" style={{ fontFamily: "'Sentient', serif" }}>
+                <h2 key={index} className="text-2xl font-bold text-stone-900 mt-10 mb-4" style={{ fontFamily: "'Story Script', serif" }}>
                   {paragraph}
                 </h2>
               );
@@ -219,7 +219,7 @@ const BlogArticlePage = () => {
             <div>
               <div className="flex items-center gap-2 mb-2">
                 <User className="w-4 h-4 text-stone-600" />
-                <h3 className="text-xl font-bold text-stone-900" style={{ fontFamily: "'Sentient', serif" }}>
+                <h3 className="text-xl font-bold text-stone-900" style={{ fontFamily: "'Story Script', serif" }}>
                   About {article.author.name}
                 </h3>
               </div>
@@ -254,7 +254,7 @@ const BlogArticlePage = () => {
               className="h-8"
               alt="Flourish Logo"
             />
-            <span className="self-center text-2xl font-extrabold whitespace-nowrap text-stone-900" style={{ fontFamily: "'Sentient', serif" }}>
+            <span className="self-center text-2xl font-extrabold whitespace-nowrap text-stone-900" style={{ fontFamily: "'Story Script', serif" }}>
               Flourish
             </span>
           </a>

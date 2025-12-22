@@ -85,7 +85,7 @@ export default function ContactPage() {
             <ArrowRight className="w-5 h-5 rotate-180" />
             <span className="font-medium">Home</span>
         </Link>
-          <h1 className="text-3xl font-bold text-stone-900" style={{ fontFamily: "'Homemade Apple', serif" }}>Contact Our Team</h1>
+          <h1 className="text-3xl font-bold text-stone-900" style={{ fontFamily: "'Story Script', serif" }}>Contact Our Team</h1>
           <p className="mt-2 text-[#d4a574]">If you’re a college or an individual interested in contributing to Flourish, please reach out to Sophia Abanador. We’d love to hear from you!</p>
         </div>
       </div>
@@ -95,7 +95,7 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Team Members Selection */}
           <div className="lg:col-span-1 space-y-4">
-            <h2 className="text-xl font-bold text-stone-900 mb-4" style={{ fontFamily: "'Homemade Apple', serif" }}>Select Team Member</h2>
+            <h2 className="text-xl font-bold text-stone-900 mb-4" style={{ fontFamily: "'Story Script', serif" }}>Select Team Member</h2>
             {teamMembers.map((member, index) => (
               <button
                 key={index}
@@ -141,7 +141,7 @@ export default function ContactPage() {
                       </span>
                     </div>
                     <div className="flex-1">
-                      <h2 className="text-2xl font-bold text-stone-900" style={{ fontFamily: "'Homemade Apple', serif" }}>{selectedMember.name}</h2>
+                      <h2 className="text-2xl font-bold text-stone-900" style={{ fontFamily: "'Story Script', serif" }}>{selectedMember.name}</h2>
                       <p className="text-lg text-stone-600 mt-1">{selectedMember.role}</p>
                       <p className="text-stone-600 mt-2">{selectedMember.specialty}</p>
                       <div className="mt-4 space-y-2">
@@ -163,7 +163,7 @@ export default function ContactPage() {
                 </div>
 
                 {/* Contact Form */}
-                <h3 className="text-xl font-bold text-stone-900 mb-6" style={{ fontFamily: "'Homemade Apple', serif" }}>
+                <h3 className="text-xl font-bold text-stone-900 mb-6" style={{ fontFamily: "'Story Script', serif" }}>
                   Send a message to {selectedMember.name.split(' ')[0]}
                 </h3>
                 

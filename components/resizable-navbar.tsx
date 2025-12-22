@@ -242,7 +242,7 @@ export const NavbarLogo = () => {
         width={35}
         height={35}
       />
-      <span className="text-stone-600 text-xl font-extrabold" style={{ fontFamily: "'Homemade Apple', serif" }}>Flourish</span>
+      <span className="text-stone-600 text-xl font-extrabold" style={{ fontFamily: "'Gamja Flower', serif" }}>Flourish</span>
     </Link>
   );
 };
